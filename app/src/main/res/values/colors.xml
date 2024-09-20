@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#7748CC</color>
+    <color name="transparent">#00000000</color>
+    <color name="bt_mua_select">#EC0808</color>
+    <color name="bt_mua_unselect">#80EC0808</color>
+    <color name="bt_add_cart_select">#047C71</color>
+    <color name="bt_add_cart_unselect">#80047C71</color>
+    <color name="red">#EF0B0B</color>
+    <color name="color_textMua">#A8A2A2</color>
+    <color name="background">#F5F5F5</color>
+</resources>

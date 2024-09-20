@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_search"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Search"
+    >
+    <SearchView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/eSearch"
+        style="@style/MySearchViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/custom_search"
+        android:iconifiedByDefault="false"
+        android:queryHint="Từ khóa tìm kiếm"
+        />
+<TextView
+    android:visibility="gone"
+    android:id="@+id/text"
+    android:layout_marginTop="1.7in"
+    android:layout_gravity="center_horizontal"
+    android:text="Không tìm thấy sản phẩm"
+    android:textSize="26sp"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/box_Gia"
+            android:visibility="gone"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/t_Hang"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_height="wrap_content"
+            >
+            <AutoCompleteTextView
+                android:hint="Giá"
+                android:paddingStart="10dp"
+                android:inputType="none"
+                android:singleLine="true"
+                android:id="@+id/select_gia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/rPhone"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

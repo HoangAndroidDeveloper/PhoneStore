@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/image_order"
+        android:layout_width="110dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/name_order"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="15dp"
+        android:maxLines="1"
+        android:text="Iphone 14 Promax"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_order"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="0dp"
+        app:layout_constraintTop_toBottomOf="@id/name_order"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/colorAndSize"
+        android:text="Màu trắng, 512GB"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/image_order"
+        />
+    <TextView
+        android:id="@+id/money1"
+        android:layout_width="0dp"
+        app:layout_constraintTop_toBottomOf="@id/colorAndSize"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="400.000đ"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/red"
+        app:layout_constraintStart_toEndOf="@+id/image_order"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    >
+    <TextView
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x1"
+        android:id="@+id/SLOrder"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thành Tiền: "
+        android:gravity="end"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="420.000đ"
+        android:id="@+id/SumMoneyOrder"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:gravity="end"
+        />
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đang chờ xác nhận"
+            android:id="@+id/state_order"
+            android:layout_marginEnd="15dp"
+            android:textColor="#0BD6C3"
+            android:textSize="14sp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            tools:ignore="HardcodedText,InefficientWeight" />
+
+        <Button
+            style="@style/CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/red"
+            android:paddingStart="25dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="10dp"
+            android:text="Hủy Đơn"
+            android:id="@+id/bt_Cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#3AA1F3"
+        />
+</LinearLayout>

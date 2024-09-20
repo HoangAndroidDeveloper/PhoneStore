@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PhoneStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="ListHang">
+        <item>Iphone</item>
+        <item>SamSung</item>
+        <item>Oppo</item>
+        <item>Xiaomi</item>
+        <item>Vsmart</item>
+        <item>Vivo</item>
+        <item>Realme</item>
+        <item>Nokia</item>
+    </string-array>
+
+    <string-array name="LGia">
+        <item>Thấp đến cao</item>
+        <item>Cao xuống thấp</item>
+    </string-array>
+    //
+    <string-array name="LRam">
+        <item>2GB</item>
+        <item>3GB</item>
+        <item>4GB</item>
+        <item>6GB</item>
+        <item>8GB</item>
+        <item>12GB</item>
+    </string-array>
+    <string-array name="LStorage">
+        <item>32GB</item>
+        <item>64GB</item>
+        <item>128GB</item>
+        <item>256GB</item>
+        <item>512GB</item>
+        <item>1TB</item>
+    </string-array>
+</resources>

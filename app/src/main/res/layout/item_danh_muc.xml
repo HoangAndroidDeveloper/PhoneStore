@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    android:text="Iphone"
+    android:background="@drawable/custom_item_dm"
+    android:paddingLeft="25dp"
+    android:paddingBottom="3dp"
+    android:layout_marginEnd="10dp"
+    android:paddingRight="25dp"
+    android:textSize="27sp"
+    android:id="@+id/name_danh_muc"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+

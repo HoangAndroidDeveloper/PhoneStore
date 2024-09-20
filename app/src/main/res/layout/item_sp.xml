@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardElevation="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/ly_sp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<ImageView
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:id="@+id/image_sp"
+    android:src="@drawable/img_1"
+    />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/name_sp"
+        android:textSize="16sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:text="iphone 15promaxkkkkkkkkk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+<TextView
+    android:textColor="#DC1B0C"
+    android:id="@+id/money_sp"
+    android:text="150000000đ"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
